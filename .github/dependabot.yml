@@ -11,3 +11,6 @@ updates:
     commit-message:
       prefix: npm
       include: scope
+    ignore:
+      - dependency-name: "chokidar"
+        update-types: [ "version-update:semver-major" ]
